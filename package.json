@@ -1,7 +1,7 @@
 {
   "name": "weatherapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web app for displaying weather for a location\r Author: Navadeepan",
   "main": "src/app.js",
   "dependencies": {
     "accepts": "^1.3.8",
@@ -59,6 +59,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "author": "Navadeepan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Navadeepan/WeatherApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Navadeepan/WeatherApp/issues"
+  },
+  "homepage": "https://github.com/Navadeepan/WeatherApp#readme"
 }
