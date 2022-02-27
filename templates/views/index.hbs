@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="stylesheet" href="css/styles1.css"/>
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <form id="cover">
+                <div class="tb">
+                    <div class="td"><input type="text" placeholder="Search" required></div>
+                    <div class="td" id="s-cover">
+                        <button type="submit">
+                            <div id="s-circle"></div>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <article class="widget">
+            <div class="weatherIcon"><i class="wi wi-day-cloudy"></i></div>
+                <div class="weatherInfo">
+                    <div class="temperature"><span></span></div>
+                    <div class="description">    
+                        <div class="weatherCondition"></div>    
+                        <div class="place"></div>
+                    </div>
+                </div>
+                <div class="date"></div>
+            </article>
+        </div>
+        <script src="js/app.js"></script>
+</html>

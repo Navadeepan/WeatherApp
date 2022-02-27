@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+/*$border-radius: 20px;*/
+
+body {
+  background-color: #49E2FB;
+  font-family: Poiret One;
+}
+
+.widget {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  display: flex;
+  height: 300px;
+  width: 600px;
+  transform: translate(-50%, -50%);
+  flex-wrap: wrap;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+    0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
+  .weatherLocation{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #fafafa;
+  }
+  .weatherIcon {
+    flex: 1 100%;
+    height: 60%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #fafafa;
+    font-family: weathericons;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 100px;
+  }
+    i {
+      padding-top: 30px;
+    }
+
+
+  .weatherInfo {
+    flex: 0 0 70%;
+    height: 40%;
+    background: #080705;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+    .temperature {
+      flex: 0 0 40%;
+      width: 100%;
+      font-size: 55px;
+      font-weight: bolder;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .description {
+      flex: 0 50%;
+      display: flex;
+      flex-direction: column;
+      width:90%;
+      height: 90%;
+      text-transform: uppercase;
+      font-size: 35px;
+      font-weight: bolder;
+      justify-content: center;
+    }
+      .weatherCondition {
+        text-transform: uppercase;
+        font-size: 37px;
+        font-weight: bolder;
+      }
+
+      .place {
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+  .date {
+    flex: 0 0 30%;
+    height: 40%;
+    background: #70c1b3;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+p {
+  position: fixed;
+  bottom: 0%;
+  right: 2%;
+}
+  a {
+    text-decoration: none;
+    color: #e4d6a7;
+    font-size: 10px;
+  }
+
