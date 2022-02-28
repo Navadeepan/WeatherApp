@@ -4,7 +4,7 @@
   "description": "Weather App",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js && npm run open",
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
